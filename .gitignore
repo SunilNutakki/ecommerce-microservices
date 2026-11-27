@@ -1,0 +1,53 @@
+
+# Eclipse workspace metadata (parent folder)
+.metadata/
+/.project
+
+# Java compiled files
+*.class
+
+# Maven build output - all microservices
+**/target/
+
+# Gradle build output
+**/build/
+**/.gradle/
+
+# Logs
+*.log
+logs/
+
+# IDE files
+**/.idea/
+**/*.iml
+**/.settings/
+**/.classpath
+**/.DS_Store
+
+# VS Code workspace settings
+.vscode/
+
+# Environment and local secret files
+.env
+.env.*
+!.env.example
+
+# Local application configuration
+**/application-local.properties
+**/application-local.yml
+
+# Temporary and backup files
+*.tmp
+*.bak
+*.swp
+
+# Operating system files
+Thumbs.db
+Desktop.ini
+
+# Eclipse IDE metadata in all microservices
+**/.metadata/
+**/.settings/
+**/.project
+**/.classpath
+**/.factorypath
